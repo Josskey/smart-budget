@@ -89438,17 +89438,18 @@ r.f7()
 A.cj(s.w,!1).dj(null)},
 $S:0}
 A.alI.prototype={
-$0(){var s,r,q,p,o,n=this,m=n.c
-if(m){s=n.b
-r=s.y
-q=s.d
-s.y=r+(n.d-((s.eO(q)+s.eM(q))*0.25-s.gjb()-s.gne()))}s=n.e
-r=n.b
-q=n.f
-p=n.a.a
-o=r.w
-if(s!=null){o[s].m(0,"date",p)
-r.w[s].m(0,"hasTime",q)}else B.b.D(o,A.ar(["title",n.r,"amount",n.d,"date",p,"hasTime",q,"isPaid",!1,"isInternalLoan",m],t.N,t.z))},
+$0(){var s,r,q,p,o,n,m=this,l=m.c
+if(l){s=m.b
+r=s.d
+q=m.d-((s.eO(r)+s.eM(r))*0.25-s.gjb()-s.gne())
+s.y+=q
+s.x+=q}s=m.e
+r=m.b
+p=m.f
+o=m.a.a
+n=r.w
+if(s!=null){n[s].m(0,"date",o)
+r.w[s].m(0,"hasTime",p)}else B.b.D(n,A.ar(["title",m.r,"amount",m.d,"date",o,"hasTime",p,"isPaid",!1,"isInternalLoan",l],t.N,t.z))},
 $S:0}
 A.alZ.prototype={
 $1(a){var s,r,q="isPaid",p=null,o=this.b,n=J.d(o.h(0,q),!0)?B.Hr:B.oI
@@ -89497,16 +89498,19 @@ $0(){A.cj(this.a,!1).dj(null)
 return null},
 $S:0}
 A.aly.prototype={
-$0(){var s,r=A.iF(this.b.a.a)
-if(r==null)r=0
-if(r>0){s=this.a
-s.a4(new A.alw(s,r))
+$0(){var s,r={},q=A.iF(this.b.a.a)
+if(q==null)q=0
+r.a=q
+if(q>0){s=this.a
+s.a4(new A.alw(r,s))
 s.f7()
 A.cj(this.c,!1).dj(null)}},
 $S:0}
 A.alw.prototype={
-$0(){var s=this.a
-s.y=B.c.dY(s.y-this.b,0,1/0)},
+$0(){var s=this.a,r=s.a,q=this.b,p=q.y
+if(r>p){s.a=p
+r=p}q.y=B.c.dY(p-r,0,1/0)
+q.x=q.x-s.a},
 $S:0}
 A.amj.prototype={
 $0(){return this.a.NL(-1)},
