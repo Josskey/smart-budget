@@ -89443,7 +89443,7 @@ if(l){s=m.b
 r=s.d
 q=m.d-((s.eO(r)+s.eM(r))*0.25-s.gjb()-s.gne())
 s.y+=q
-s.x+=q}s=m.e
+s.x-=q}s=m.e
 r=m.b
 p=m.f
 o=m.a.a
@@ -89510,7 +89510,7 @@ A.alw.prototype={
 $0(){var s=this.a,r=s.a,q=this.b,p=q.y
 if(r>p){s.a=p
 r=p}q.y=B.c.dY(p-r,0,1/0)
-q.x=q.x-s.a},
+q.x=q.x+s.a},
 $S:0}
 A.amj.prototype={
 $0(){return this.a.NL(-1)},
