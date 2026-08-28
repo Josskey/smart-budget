@@ -26749,7 +26749,7 @@ var $async$aAF=A.L(function(a,b){if(a===1)return A.H(b,r)
 for(;;)switch(s){case 0:if($.Z==null)A.ams()
 $.Z.toString
 s=2
-return A.F(A.akr("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNzYnRhcXp5aHVjamJieGJ1bXRnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc4NzcxNTUsImV4cCI6MjEwMzQ1MzE1NX0.UiJxMb2kB06M0Y06oCsTjpztrk_QxLg7fsL5yKdWcW8","https://ssbtaqzyhucjbbxbumtg.supabase.co"),$async$aAF)
+return A.F(A.akr("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNzYnRhcXp5aHVjamJieGJ1bXRnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc4NzcxNTUsImV4cCI6MjEwMzQ1MzE1NX0.UiJxMb2kB06M0Y06oCsTjpztrk_QxLg7fsL5yKdWcW8",B.Iq,"https://ssbtaqzyhucjbbxbumtg.supabase.co"),$async$aAF)
 case 2:if($.Z==null)A.ams()
 q=$.Z
 q.toString
@@ -28448,122 +28448,121 @@ aak:function aak(){},
 ajj:function ajj(a){this.b=a},
 aji:function aji(a){this.a=a
 this.b=$},
-akr(a6,a7){var s=0,r=A.K(t._k),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5
+akr(a5,a6,a7){var s=0,r=A.K(t._k),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4
 var $async$akr=A.L(function(a8,a9){if(a8===1)return A.H(a9,r)
-for(;;)switch(s){case 0:a5=$.kP()
-if(a5.a){$.aFb().b_(B.e8,"Supabase is already initialized. Skipping reinitialization.",null,null)
-q=a5
+for(;;)switch(s){case 0:a4=$.kP()
+if(a4.a){$.aFb().b_(B.e8,"Supabase is already initialized. Skipping reinitialization.",null,null)
+q=a4
 s=1
-break}a5.d=!1
+break}a4.d=!1
 p=$.aFb()
 p.b_(B.dc,"Initialize Supabase v2.17.2",null,null)
-o=new A.aji(new A.b4(new A.aj($.ai,t.V),t.h))
+if(a6.b==null){o=new A.aji(new A.b4(new A.aj($.ai,t.V),t.h))
 o.zR()
-n=B.Iq.asu(o)
-if(n.d==null){o=B.b.ga_(A.dv(a7,0,null).gl6().split("."))
-n=n.ass(new A.ajj("sb-"+o+"-auth-token"))}o=t.N
-m=A.cC($.aMR(),o,o)
-l=A.ey("supabase.supabase")
-k=a7+"/rest/v1"
-j=A.kN(a7+"/realtime/v1","http","ws")
-i=a7+"/auth/v1"
-h=a7+"/storage/v1"
-g=a7+"/functions/v1"
-f=A.cC($.aMS(),o,o)
-f.N(0,m)
-m=new A.amz()
-m.fk()
-e=new A.Rb(a6,B.DW,k,j,i,h,g,f,null,m,!1,null,new A.a3y(),l)
+a6=a6.asu(o)}if(a6.d==null){o=B.b.ga_(A.dv(a7,0,null).gl6().split("."))
+a6=a6.ass(new A.ajj("sb-"+o+"-auth-token"))}o=t.N
+n=A.cC($.aMR(),o,o)
+m=A.ey("supabase.supabase")
+l=a7+"/rest/v1"
+k=A.kN(a7+"/realtime/v1","http","ws")
+j=a7+"/auth/v1"
+i=a7+"/storage/v1"
+h=a7+"/functions/v1"
+g=A.cC($.aMS(),o,o)
+g.N(0,n)
+n=new A.amz()
+n.fk()
+f=new A.Rb(a5,B.DW,l,k,j,i,h,g,null,n,!1,null,new A.a3y(),m)
 A.b10()
-d=new A.a2c(A.b([],t.O))
-e.as=d
-c=n.c
-b=A.cC(A.jM(f,o,o),o,o)
-b.m(0,"apikey",a6)
-b.m(0,"Authorization","Bearer "+a6)
-a=t.FB
-a0=A.aIS(!1,a)
-a=A.aIS(!0,a)
-a1=A.ey("supabase.auth")
-a2=A.cC($.aMT(),o,o)
-a2.N(0,b)
-b=new A.a89(new A.awS(),i,a2,d,A.o(o,t.QK),a0,a,n.b,c,a1)
-b.y=!0
-a1.b_(B.dc,"Initialize GoTrueClient v2.27.2 with url: "+i+", autoRefreshToken: true, flowType: "+c.b+", tickDuration: "+B.kx.k(0)+", tickThreshold: 3",null,null)
-a1.b_(B.ba,"Initialize with headers: "+a2.k(0),null,null)
-c=new A.a84(i,a2,d)
-c.gRN()
-c.e!==$&&A.az()
-c.e=new A.a86()
-c.f!==$&&A.az()
-c.f=new A.a87()
-c.r!==$&&A.az()
-c.r=new A.a85()
-c.w!==$&&A.az()
-c.w=new A.a88()
-b.a=c
-c=b.gzu()
-b.c!==$&&A.az()
-b.c=new A.a8k()
-b.b!==$&&A.az()
-b.b=new A.a8j()
-b.d!==$&&A.az()
-b.d=new A.a8l(b,c)
-b.qo()
-b.ajj()
-e.at=b
-c=e.gadt()
-b=new A.KC(d,a6,c,!1)
-e.z=b
-e.Q=new A.KC(d,a6,c,!0)
-A.b0U(a6,l)
-c=A.cC(A.jM(f,o,o),o,o)
-a=A.ey("supabase.postgrest")
+e=new A.a2c(A.b([],t.O))
+f.as=e
+d=a6.c
+c=A.cC(A.jM(g,o,o),o,o)
+c.m(0,"apikey",a5)
+c.m(0,"Authorization","Bearer "+a5)
+b=t.FB
+a=A.aIS(!1,b)
+b=A.aIS(!0,b)
+a0=A.ey("supabase.auth")
+a1=A.cC($.aMT(),o,o)
+a1.N(0,c)
+c=new A.a89(new A.awS(),j,a1,e,A.o(o,t.QK),a,b,a6.b,d,a0)
+c.y=!0
+a0.b_(B.dc,"Initialize GoTrueClient v2.27.2 with url: "+j+", autoRefreshToken: true, flowType: "+d.b+", tickDuration: "+B.kx.k(0)+", tickThreshold: 3",null,null)
+a0.b_(B.ba,"Initialize with headers: "+a1.k(0),null,null)
+d=new A.a84(j,a1,e)
+d.gRN()
+d.e!==$&&A.az()
+d.e=new A.a86()
+d.f!==$&&A.az()
+d.f=new A.a87()
+d.r!==$&&A.az()
+d.r=new A.a85()
+d.w!==$&&A.az()
+d.w=new A.a88()
+c.a=d
+d=c.gzu()
+c.c!==$&&A.az()
+c.c=new A.a8k()
+c.b!==$&&A.az()
+c.b=new A.a8j()
+c.d!==$&&A.az()
+c.d=new A.a8l(c,d)
+c.qo()
+c.ajj()
+f.at=c
+d=f.gadt()
+c=new A.KC(e,a5,d,!1)
+f.z=c
+f.Q=new A.KC(e,a5,d,!0)
+A.b0U(a5,m)
+d=A.cC(A.jM(g,o,o),o,o)
+b=A.ey("supabase.postgrest")
 A.aJ0(B.Av,t.S)
-a0=A.cC($.aPB(),o,o)
-a0.N(0,c)
-a.b_(B.dc,"Initialize PostgrestClient with url: "+k+", schema: public",null,null)
-a.b_(B.ba,"Initialize with headers: "+c.k(0),null,null)
-e.CW!==$&&A.az()
-e.CW=new A.aeY(k,a0,"public",m,!0,3,a)
-k=A.cC(A.jM(f,o,o),o,o)
-c=A.ey("supabase.functions")
-A.cC($.aMU(),o,o).N(0,k)
-c.b_(B.dc,"Initialize FunctionsClient v2.7.1 with url '"+g+"' and region 'null'",null,null)
-c.b_(B.ba,"Initialize with headers: "+k.k(0),null,null)
-e.ax!==$&&A.az()
-e.ax=new A.a7E(m,!0,c)
-m=A.cC(A.jM(f,o,o),o,o)
-k=A.ey("supabase.storage")
-A.cC($.aMV(),o,o).N(0,m)
+a=A.cC($.aPB(),o,o)
+a.N(0,d)
+b.b_(B.dc,"Initialize PostgrestClient with url: "+l+", schema: public",null,null)
+b.b_(B.ba,"Initialize with headers: "+d.k(0),null,null)
+f.CW!==$&&A.az()
+f.CW=new A.aeY(l,a,"public",n,!0,3,b)
+l=A.cC(A.jM(g,o,o),o,o)
+d=A.ey("supabase.functions")
+A.cC($.aMU(),o,o).N(0,l)
+d.b_(B.dc,"Initialize FunctionsClient v2.7.1 with url '"+h+"' and region 'null'",null,null)
+d.b_(B.ba,"Initialize with headers: "+l.k(0),null,null)
+f.ax!==$&&A.az()
+f.ax=new A.a7E(n,!0,d)
+n=A.cC(A.jM(g,o,o),o,o)
+l=A.ey("supabase.storage")
+A.cC($.aMV(),o,o).N(0,n)
 A.ey("supabase.storage")
-k.b_(B.dc,"Initialize SupabaseStorageClient v2.8.0 with url: "+h+", retryAttempts: 0",null,null)
-k.b_(B.ba,"Initialize with headers: "+m.k(0),null,null)
-e.ay!==$&&A.az()
-e.ay=new A.akn(0,k)
-m=A.a6(["apikey",a6],o,t.z)
-k=A.o(o,o)
-k.m(0,"apikey",a6)
-k.N(0,A.jM(f,o,o))
-o=A.aUA(j,B.HA,null,null,k,b,null,m,B.kx,null)
-e.ch!==$&&A.az()
-e.ch=o
-l.b_(B.dc,"Initialize SupabaseClient v2.16.1 with no custom access token",null,null)
-e.aj6()
-a5.b=e
-a5.anw()
-a5.a=!0
-a3=a5.c=new A.Ra($.aMP(),A.ey("supabase.supabase_flutter"))
+l.b_(B.dc,"Initialize SupabaseStorageClient v2.8.0 with url: "+i+", retryAttempts: 0",null,null)
+l.b_(B.ba,"Initialize with headers: "+n.k(0),null,null)
+f.ay!==$&&A.az()
+f.ay=new A.akn(0,l)
+n=A.a6(["apikey",a5],o,t.z)
+l=A.o(o,o)
+l.m(0,"apikey",a5)
+l.N(0,A.jM(g,o,o))
+o=A.aUA(k,B.HA,null,null,l,c,null,n,B.kx,null)
+f.ch!==$&&A.az()
+f.ch=o
+m.b_(B.dc,"Initialize SupabaseClient v2.16.1 with no custom access token",null,null)
+f.aj6()
+a4.b=f
+a4.anw()
+a4.a=!0
+a2=a4.c=new A.Ra($.aMP(),A.ey("supabase.supabase_flutter"))
 s=3
-return A.F(a3.nK(n),$async$akr)
-case 3:o=a3.tu()
-m=$.ai
-m=new A.L8(new A.b4(new A.aj(m,t.LR),t.zh),new A.b4(new A.aj(m,t.xF),t.oe),null,t.Od)
-m.eX(o)
-a4=m.f
-a5.e=a4===$?m.f=new A.L9(m,t.Ew):a4
+return A.F(a2.nK(a6),$async$akr)
+case 3:o=a2.tu()
+n=$.ai
+n=new A.L8(new A.b4(new A.aj(n,t.LR),t.zh),new A.b4(new A.aj(n,t.xF),t.oe),null,t.Od)
+n.eX(o)
+a3=n.f
+a4.e=a3===$?n.f=new A.L9(n,t.Ew):a3
 p.b_(B.e8,"***** Supabase init completed *****",null,null)
-q=a5
+q=a4
 s=1
 break
 case 1:return A.I(q,r)}})
