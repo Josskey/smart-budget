@@ -92341,7 +92341,7 @@ var $async$Au=A.L(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:n.a2(new A.ana(n))
 q=3
 s=6
-return A.F(A.a8a($.oQ().gj7(),B.nQ,"https://josskey.github.io/"),$async$Au)
+return A.F(A.a8a($.oQ().gj7(),B.nQ,"https://josskey.github.io/smart-budget/"),$async$Au)
 case 6:n.a2(new A.anb())
 o.push(5)
 s=4
